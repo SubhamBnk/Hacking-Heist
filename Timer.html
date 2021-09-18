@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Down Begins</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .timeentry{
+            font-size: 20px;
+            color: #ccd631;
+        }
+    </style>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo new.png" alt="check your internet connection!">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#About">About_us</a></li>
+            <li class="item"><a href="#develope">Develope</a></li>
+            <li class="item"><a href="#help">FAQ</a></li>
+        </ul>
+    </nav>
+    <div class="overlay"></div>
+    <div class="wrapper">
+        <div class="">
+            <h1 class="title"><span>Don't Let The Time Fly</span>You are ready to go in ...</h1>
+            <div class="countdown-container">
+                
+                <div>
+                    <p id="days" class="big-text">0</p>
+                    <span>Days</span>
+                </div>
+                <div>
+                    <p id="hours" class="big-text">0</p>
+                    <span>Hours</span>
+                </div>
+                <div>
+                    <p id="min" class="big-text">0</p>
+                    <span>Min</span>
+                </div>
+                <div>
+                    <p id="sec" class="big-text">0</p>
+                    <span>Sec</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="timeentry">
+            <h2>Enter Your time :</h2>
+        </div>
+        <input type="datetime-local" name="" id="myTime">
+        <!-- <input type="time" name="timeInput" id="myTime"> -->
+        <!-- <input type="text" placeholder="" id="myInput"> -->
+        <button type="button" onclick="getInputValue();">Start the timer</button>
+        
+
+        
+
+
+    </div>
+    <footer>
+        <div class="center">
+            Copyright &copy; Abhitimer. All rights reserved!
+        </div>
+    </footer>
+<script src="abh
